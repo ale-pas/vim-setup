@@ -5,6 +5,7 @@
 :set shiftwidth=4
 :set smarttab
 :set softtabstop=4
+:set background=dark
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
