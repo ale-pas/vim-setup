@@ -6,6 +6,7 @@
 :set smarttab
 :set softtabstop=4
 :set background=dark
+:set hlsearch
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
