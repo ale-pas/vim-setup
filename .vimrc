@@ -28,6 +28,7 @@ call plug#begin()
 	Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 	Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursor
 	Plug 'https://github.com/tpope/vim-fugitive.git'
+	Plug 'https://github.com/airblade/vim-gitgutter.git'
 call plug#end()
 
 
