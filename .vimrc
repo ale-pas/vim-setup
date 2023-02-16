@@ -16,18 +16,18 @@ endif
 
 call plug#begin()
 	Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
-	"Plug 'itchyny/lightline.vim'
-	Plug 'projekt0n/github-nvim-theme'
+	" Plug 'itchyny/lightline.vim'
+	" Plug 'projekt0n/github-nvim-theme'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'preservim/nerdtree'
-	Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
+	" Plug 'preservim/nerdtree'
+	" Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 	" Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 	Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
-	Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursor
-	Plug 'https://github.com/tpope/vim-fugitive.git'
+	" Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursor
+	" Plug 'https://github.com/tpope/vim-fugitive.git'
 	Plug 'https://github.com/airblade/vim-gitgutter.git'
 call plug#end()
 
