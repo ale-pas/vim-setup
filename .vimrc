@@ -22,8 +22,11 @@ call plug#begin()
 	Plug 'vim-airline/vim-airline-themes'
 	" Plug 'preservim/nerdtree'
 	" Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
-	Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
-	Plug 'https://github.com/vimcolorschemes/vimcolorschemes.git' " Retro Scheme
+	" Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
+	" Plug 'https://github.com/vimcolorschemes/vimcolorschemes.git' " Retro Scheme
+	" Plug 'https://github.com/KabbAmine/yowish.vim.git' " Retro Scheme
+	" Plug 'https://github.com/sainnhe/gruvbox-material.git' " Retro Scheme
+	Plug 'https://github.com/ayu-theme/ayu-vim.git' " Retro Scheme
 	" Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 	Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
@@ -34,15 +37,8 @@ call plug#end()
 
 
 " colorscheme gruvbox 
+" colorscheme yowish
+
+set termguicolors     " enable true colors support
+let ayucolor="dark"   " for dark version of theme
 colorscheme ayu
-" NERDtree config key bindings 
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-
-
-" lightline setup
-
-" let g:lightline = {
-      " \ 'colorscheme': 'wombat',
-      " \ }
