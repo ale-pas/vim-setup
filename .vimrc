@@ -23,6 +23,7 @@ call plug#begin()
 	" Plug 'preservim/nerdtree'
 	" Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
+	Plug 'https://github.com/vimcolorschemes/vimcolorschemes.git' " Retro Scheme
 	" Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 	Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
@@ -32,7 +33,8 @@ call plug#begin()
 call plug#end()
 
 
-colorscheme gruvbox 
+" colorscheme gruvbox 
+colorscheme ayu
 " NERDtree config key bindings 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
