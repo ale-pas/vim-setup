@@ -37,9 +37,8 @@ call plug#begin()
 call plug#end()
 
 
-" colorscheme gruvbox 
-" colorscheme yowish
+colorscheme minimalist
 
-set termguicolors     " enable true colors support
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
+" set termguicolors     " enable true colors support
+" let ayucolor="dark"   " for dark version of theme
+" colorscheme ayu
