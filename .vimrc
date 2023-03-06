@@ -26,6 +26,7 @@ call plug#begin()
 	" Plug 'https://github.com/vimcolorschemes/vimcolorschemes.git' " Retro Scheme
 	" Plug 'https://github.com/KabbAmine/yowish.vim.git' " Retro Scheme
 	" Plug 'https://github.com/sainnhe/gruvbox-material.git' " Retro Scheme
+	Plug 'dikiaap/minimalist'
 	Plug 'https://github.com/ayu-theme/ayu-vim.git' " Retro Scheme
 	" Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 	Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
