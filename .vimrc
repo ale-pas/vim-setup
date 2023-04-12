@@ -7,6 +7,7 @@
 :set softtabstop=4
 :set background=dark
 :set hlsearch
+:set backspace=indent,eol,start
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
